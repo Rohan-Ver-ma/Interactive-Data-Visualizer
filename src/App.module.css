@@ -1,0 +1,75 @@
+/* make the control panel float on 
+ * top with readable buttons */
+ .controls {
+    position: absolute;
+    z-index: 10000;
+    padding: 20px;
+    top: 0; 
+    right: 0;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+  
+  .controls > button {
+    cursor: pointer;
+    display: block;
+    font-size: 24px;
+    margin-bottom: .2em;
+    width: 100%;
+    background-color: #333;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+  .controls > button:hover {
+    background-color: #666;
+  }
+  
+  .controls > button:active {
+    background-color: #555;
+  }
+
+  .leftControls {
+    width: 12%;
+    position: relative;
+    align-items: baseline;
+    z-index: 10000;
+    padding: 20px;
+    top: 0; 
+    right: 0;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+  .leftControls > button {
+    display: block;
+    font-size: 24px;
+    margin-bottom: .2em;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+  }
+  .heading{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .first{
+    background-color:black;
+  }
+  .second{
+    background-color: red;
+  }
+  .third{
+    background-color: rgb(102 , 0 ,204);
+  }
+  .fourth{
+    background-color: rgb(86, 144, 58, 250);
+  }
+  
