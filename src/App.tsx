@@ -8,7 +8,7 @@ import DeckGL from '@deck.gl/react/typed';
 import {GeoJsonLayer  } from '@deck.gl/layers';
 
 
-const MAPBOX_ACESS_TOKEN:string = "pk.eyJ1Ijoicm9oYW4tdmVybWEiLCJhIjoiY2xza3FpZ3FhMDc2MDJpbjI2ZDV1Ynk4OSJ9.alzoy33ZI_fLrAQPidkCgQ";
+const MAPBOX_ACESS_TOKEN:string = "MAP TOKEN HERE";
   const MAP_STYLE:string = 'mapbox://styles/rohan-verma/clspsc3ex02dm01qy867idxy5'; 
   const INITIAL_VIEW_STATE:parameters = {  
       latitude: 39.8283,  
