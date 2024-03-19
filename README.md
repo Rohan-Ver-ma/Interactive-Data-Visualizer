@@ -1,6 +1,6 @@
 # DeckGL Map Visualization
 
-This project demonstrates how to create a map visualization using DeckGL with React and Javascript.
+This project demonstrates how to create a map visualization using DeckGL with React and Typescript.
 
 ## Final Output
 ![sample image](sampleimages/sample1.2.png)
@@ -76,6 +76,7 @@ The project structure is as follows:
 - `src/`: Contains the source code for the application.
   - `App.tsx`: Main component that sets up the DeckGL map visualization.
   - `data.json`: Sample GeoJSON data for rendering map features.
+  - `App.module.css`: Styles for the control buttons.
 - `public/`: Contains public assets and the HTML template.
 - `.env`: Environment variables configuration file (not included in the repository).
 - `package.json`: Defines project dependencies and scripts.
